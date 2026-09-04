@@ -1,0 +1,15 @@
+# Conceptos aprendidos
+* Diferencias entre Frontend y Backend
+
+Frontend: lo que ven los que visitan la página
+Backend: el código, la base de datos de la página.
+Se relacionan mediante las APIs, intercambiando solicitudes del Frontend y datos del Backend.
+
+La World Wide Web (WWW) es un sistema de documentos y recursos web interconectados mediante hipervínculos y accesibles a través de Internet.
+
+* Protocolo de Transferencia de Hipertexto (HTTP) define cómo se intercambian mensajes entre el navegador web (cliente) y el servidor web.
+* HTML (Lenguaje de Marcado de Hipertexto): Diseñado para estructurar y presentar contenido en la web.
+* URI (Identificador de Recursos Uniforme): Permite identificar de manera única recursos en la web.
+
+Modelo cliente (navegador que quiere una página web) - servidor (ordenador potente que almacena la web y la devuelve). Request - Response
+Pueden estar ambos en la misma máquina. Por ejemplo, para acceder a los archivos locales o similar.
