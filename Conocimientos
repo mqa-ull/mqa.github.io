@@ -1,9 +1,9 @@
-# Conceptos aprendidos
+# Conceptos aprendidos en el Tema 1: Lenguajes de programación
 * Diferencias entre Frontend y Backend
 
 Frontend: lo que ven los que visitan la página
 Backend: el código, la base de datos de la página.
-Se relacionan mediante las APIs, intercambiando solicitudes del Frontend y datos del Backend.
+Se relacionan mediante las APIs (interfaz de programación de aplicaciones), intercambiando solicitudes del Frontend y datos del Backend.
 
 La World Wide Web (WWW) es un sistema de documentos y recursos web interconectados mediante hipervínculos y accesibles a través de Internet.
 
@@ -13,3 +13,24 @@ La World Wide Web (WWW) es un sistema de documentos y recursos web interconectad
 
 Modelo cliente (navegador que quiere una página web) - servidor (ordenador potente que almacena la web y la devuelve). Request - Response
 Pueden estar ambos en la misma máquina. Por ejemplo, para acceder a los archivos locales o similar.
+
+* JSON (JavaScript Object Notation) es un formato ligero de intercambio de datos, fácilmente legible tanto para humanos como para máquinas.
+* AJAX (Asynchronous JavaScript and XML) permite al frontend realizar solicitudes al backend de manera asíncrona, sin necesidad de recargar la página completa.
+
+#Frontend
+* CSS (Hojas de Estilo en Cascada): Define el estilo y la presentación de los documentos HTML, incluyendo colores, diseños y fuentes.
+* JavaScript (JS): Añade interactividad a las páginas web, permitiendo la creación de contenido dinámico como formularios en vivo, animaciones y la manipulación de elementos HTML y CSS.
+
+##  Frameworks y bibliotecas
+React: Una biblioteca de JavaScript para construir interfaces de usuario interactivas de manera eficiente.
+Angular: Un framework de desarrollo para construir aplicaciones web dinámicas y de una sola página (SPA).
+Vue.js: Un framework progresivo para construir interfaces de usuario y aplicaciones de una sola página.
+
+#Backend
+Lenguajes de Programación: Python, Ruby, PHP, Java, y Node.js son comunes en el desarrollo backend, cada uno con sus propias bibliotecas y frameworks.
+Bases de Datos: Sistemas como MySQL, PostgreSQL, MongoDB, y Firebase para almacenar y gestionar datos.
+Servidores Web: Apache y Nginx son ejemplos de software de servidor web que gestionan las solicitudes entrantes de Internet y sirven respuestas a los usuarios.
+
+##Arquitectura y diseño del Backend
+APIs (Interfaces de Programación de Aplicaciones): Permiten la comunicación entre diferentes partes de una aplicación o entre distintas aplicaciones.
+Microservicios: Una arquitectura que divide una aplicación en una colección de servicios más pequeños, lo que mejora la modularidad y facilita la escalabilidad y el mantenimiento.
