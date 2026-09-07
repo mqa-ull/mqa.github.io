@@ -36,17 +36,4 @@ APIs (Interfaces de Programación de Aplicaciones): Permiten la comunicación en
 Microservicios: Una arquitectura que divide una aplicación en una colección de servicios más pequeños, lo que mejora la modularidad y facilita la escalabilidad y el mantenimiento.
 
 
-# Tema 2
-<!DOCTYPE html>
-<html> #inicio del documento
-<head> #metadatos, enlaces..
-  <title>Título de la página</title> #título en el navegador
-</head>
-<body> #lo visible de la página web
-  <h1>Encabezado de la página</h1>
-  <p>Párrafo en la página web</p>
-</body>
-</html> #cierre del documento, importante la barra para cerrar un elemento
-
-<img> src (para especificar la URL de la imagen) y alt (para proporcionar texto alternativo en caso de que la imagen no pueda mostrarse).
-Etiqueta de salto de línea <br>
+# Tema 2 ver Notepad++
