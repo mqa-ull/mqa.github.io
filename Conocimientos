@@ -35,5 +35,43 @@ Servidores Web: Apache y Nginx son ejemplos de software de servidor web que gest
 APIs (Interfaces de Programación de Aplicaciones): Permiten la comunicación entre diferentes partes de una aplicación o entre distintas aplicaciones.
 Microservicios: Una arquitectura que divide una aplicación en una colección de servicios más pequeños, lo que mejora la modularidad y facilita la escalabilidad y el mantenimiento.
 
+# Tema 2 Aprendiendo HTML (Notepad++, HTML tutorial)
 
-# Tema 2 ver Notepad++
+# Tema 3 Aprendiendo CSS
+
+Hojas de Estilo en Cascada (CSS, Cascading Style Sheets) se aplica a través de reglas de estilo, para controlar la presentación de uno o más elementos HTML en la página web. 
+Una regla de CSS se compone de dos partes principales: un selector y un bloque de declaración.
+
+* Selector: Especifica el elemento HTML al que se aplicarán los estilos. Puede ser el nombre de una etiqueta HTML, una clase, un ID u otros selectores más avanzados.
+* Bloque de declaración: Contiene una o más declaraciones separadas por ;. Cada declaración incluye una propiedad CSS y un valor separado por :. Este bloque se encierra entre {}.
+Los comentarios se encierran entre /* y */.
+
+La cascada se leerá por: 
+* orden de importancia (!important) 
+* Especificidad (Cuando dos reglas tienen diferentes selectores, pero podrían aplicarse al mismo elemento, la regla con el selector de mayor especificidad gana.)
+* Orden de origen (la última)
+
+Puedes controlar la herencia utilizando las palabras clave inherit, initial, y unset.
+
+Selector (elemento) {Propiedad: Valor y unidad (color o número)}. Viewport height/weight, tamaño de la pantalla.
+El selector universal, denotado por *.
+
+Selectores de atributo: todos los elementos <input> de tipo checkbox utilizando el selector de atributo [type="checkbox"].
+pseudo-clases permiten seleccionar elementos en base a su estado o posición en el documento. 
+:hover (para estilos al pasar el mouse), :focus (para elementos en foco, como un campo de formulario), y :nth-child() (para seleccionar elementos hijos basados en su orden).
+
+Modelo de caja: Content, Padding, Border y Margin. Tamaño total y la posición de un elemento en la página.
+.box {box-sizing: border-box;} ó content-box (valor por defecto)
+
+* Posicionamiento: static (default, una tras otra), relative (se puede mover un poco, p.e. a la derecha), absolute (dentro de otro), fixed (siempre en esa posición de la pantalla) y sticky (se pega al borde de la pantalla).
+
+font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif; Se pueden importar, como de Google Fonts
+font-size, line-height (altura, separación del texto), font-style (estilo, "cursiva"), font-weigh (grosor, negrita)
+
+Color: Hexadecimal. # y 6 caracteres (números y letras). Cada par, representa la intensidad de RGB. P.e.: #000000 (negro, niguno), #FFFFFF (blanco, máx de todo); #FF0000 (rojo máx.) y demás.
+rgb() con 3 variables (intensidad de c/RGB) desde 0 a 255. rgba() añade una cuarta variable, asociada a la opacidad. color: rgba(255, 0, 0, 0.5); /* Aplica al párrafo un color rojo semi-transparente */
+HSL (Hue -matiz-, Saturation, Lightness). hsla() añade la opacidad. El matiz se mide en grados (de 0 a 360), mientras que la saturación y la luminosidad se miden en porcentajes.  hsl(120, 100%, 75%) 
+
+text-transform:capitalize (each word starts with capital letter)
+border-width: top right bottom left (caja)
+group selectors: with a comma. h1, h2, p {
