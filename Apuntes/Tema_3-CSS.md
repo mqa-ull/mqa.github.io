@@ -1,5 +1,3 @@
----
-
 # Tema 3 — CSS
 
 **CSS (Cascading Style Sheets)** es el lenguaje utilizado para definir la presentación y el diseño de los documentos HTML.
